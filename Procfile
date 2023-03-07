@@ -1,1 +1,1 @@
-web : gunicorn railway.wsgi --log-file-
+web : waitress railway.wsgi --log-file-
